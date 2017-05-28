@@ -1,0 +1,36 @@
+
+// Fonts
+//@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+// Variables
+@import "variables";
+@import "helpers";
+
+// Bootstrap
+//@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+@import "node_modules/framework7/dist/css/framework7.ios";
+@import "node_modules/framework7/dist/css/framework7.ios.colors";
+@import "node_modules/font-awesome/scss/font-awesome";
+@import "node_modules/framework7-icons/css/framework7-icons";
+
+.hint {
+  color: rgb(100, 100, 100);
+}
+.a-no-decoration {
+  text-decoration: none !important;
+}
+
+#tutorial-speedometer {
+  display: block;
+  margin: 0 auto;
+}
+
+.large-number {
+  text-align: center;
+}
+.large-number-hint {
+  text-align: center;
+  color: rgb(100, 100, 100);
+  margin-top: -1em;
+}
